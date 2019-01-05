@@ -45,4 +45,25 @@ https://docs.geoserver.org/stable/en/user/filter/ecql_reference.html
 https://stackoverflow.com/questions/45333651/geoserver-dwithin-not-filtering-points-correctly
 https://en.wikipedia.org/wiki/Decimal_degrees
 
+## 07. 마우스 클릭이벤트로 WKT LINESTRING 추출하는 스크립트
+```
+// 01. 이벤트 등록
+var clickPointArray = [];
+map.on('singleclick', function(evt) {
+    clickPointArray.push(evt.coordinate)
+});
 
+// 02. 지도화면에서 마우스 클릭
+
+// 03. WKT 라인스트링 출력
+var wktLineString = 'LINESTRING (';
+clickPointArray.forEach(function(point, idx) {
+    wktLineString += (point[0] + ' ' + point[1]);
+    if (idx < clickPointArray.length - 1) wktLineString += ', ';
+});
+wktLineString += ')';
+console.log(wktLineString);
+
+--- 출력결과 예시 ----------------------------------------------------
+LINESTRING (-8235936.650044351 4973071.283554765, -8237377.783869203 4972651.350519709, -8235631.244200673 4972021.450967125, -8237062.834092911 4970885.722985949)
+```
