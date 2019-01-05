@@ -7,7 +7,7 @@ sample layer group인 tiger-ny layer를 이용한 CQL 테스트하기
 
 ## 02. 테스트에 사용할 LINESTRING WKT Layer를 Browser Console에서 추가
 ```
-// 다음 스크립트를 실행하면 흰색 Layer가 추가됨
+// 다음 스크립트를 실행하면 빨간색 Layer가 추가됨
 var wkt = 'LINESTRING (-74.00508642196655 40.71391582489014, -74.00856256484985 40.711984634399414, -74.00311231613159 40.70803642272949, -74.00495767593384 40.70357322692871)';
 var format = new ol.format.WKT();
 var feature = format.readFeature(wkt);
