@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<StyledLayerDescriptor version="1.0.0"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+	xmlns="http://www.opengis.net/sld"
+	xmlns:ogc="http://www.opengis.net/ogc"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NamedLayer>
+		<Name>TL_SCCO_SIG</Name>
+		<UserStyle>
+			<Title>polygon style</Title>
+			<FeatureTypeStyle>
+				<Rule>
+					<Title>polygon</Title>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#00FF00</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#000000</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<MaxScaleDenominator>357000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:Function name="Concatenate">
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>
+									<![CDATA[ ]]>
+								</ogc:Literal>
+								<ogc:PropertyName>SIG_KOR_NM</ogc:PropertyName>
+							</ogc:Function>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">굴림체</CssParameter>
+							<CssParameter name="font-size">12</CssParameter>
+							<CssParameter name="font-style">normal</CssParameter>
+							<CssParameter name="font-weight">bold</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.0</AnchorPointY>
+								</AnchorPoint>
+								<Displacement>
+									<DisplacementX>0</DisplacementX>
+									<DisplacementY>5</DisplacementY>
+								</Displacement>
+							</PointPlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>

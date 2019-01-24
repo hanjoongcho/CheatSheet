@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<StyledLayerDescriptor version="1.0.0"
+  xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
+	xmlns="http://www.opengis.net/sld"
+	xmlns:ogc="http://www.opengis.net/ogc"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<NamedLayer>
+		<Name>TL_SCCO_SIG</Name>
+		<UserStyle>
+			<Title>polygon style</Title>
+			<FeatureTypeStyle>
+				<Rule>
+					<Name>서울특별시</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>11000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>11999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#00FF00</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>부산광역시</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>26000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>26999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>대구광역시</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>27000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>27999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#357F00</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>경기도</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>41000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>41999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#F90000</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>강원도</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>42000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>42999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#F42999</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<Name>충청북도</Name>
+					<ogc:Filter>
+						<ogc:And>
+							<ogc:PropertyIsGreaterThanOrEqualTo>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>43000</ogc:Literal>
+							</ogc:PropertyIsGreaterThanOrEqualTo>
+							<ogc:PropertyIsLessThan>
+								<ogc:PropertyName>SIG_CD</ogc:PropertyName>
+								<ogc:Literal>43999</ogc:Literal>
+							</ogc:PropertyIsLessThan>
+						</ogc:And>
+					</ogc:Filter>
+					<PolygonSymbolizer>
+						<Fill>
+							<CssParameter name="fill">#F9FF00</CssParameter>
+							<CssParameter name="fill-opacity">0.3</CssParameter>
+						</Fill>
+						<Stroke>
+							<CssParameter name="stroke">#FFFFFF</CssParameter>
+							<CssParameter name="stroke-width">0.5</CssParameter>
+						</Stroke>
+					</PolygonSymbolizer>
+				</Rule>
+				<Rule>
+					<MaxScaleDenominator>1800000</MaxScaleDenominator>
+					<TextSymbolizer>
+						<Label>
+							<ogc:Function name="Concatenate">
+								<ogc:PropertyName>SIG_KOR_NM</ogc:PropertyName>
+								<ogc:Literal>
+									<![CDATA[
+]]>
+								</ogc:Literal>
+								<ogc:PropertyName>SIG_ENG_NM</ogc:PropertyName>
+							</ogc:Function>
+						</Label>
+						<Font>
+							<CssParameter name="font-family">굴림체</CssParameter>
+							<CssParameter name="font-size">11</CssParameter>
+							<CssParameter name="font-style">normal</CssParameter>
+						</Font>
+						<LabelPlacement>
+							<PointPlacement>
+								<AnchorPoint>
+									<AnchorPointX>0.5</AnchorPointX>
+									<AnchorPointY>0.0</AnchorPointY>
+								</AnchorPoint>
+								<Displacement>
+									<DisplacementX>0</DisplacementX>
+									<DisplacementY>5</DisplacementY>
+								</Displacement>
+							</PointPlacement>
+						</LabelPlacement>
+						<Fill>
+							<CssParameter name="fill">#000000</CssParameter>
+						</Fill>
+					</TextSymbolizer>
+				</Rule>
+			</FeatureTypeStyle>
+		</UserStyle>
+	</NamedLayer>
+</StyledLayerDescriptor>
