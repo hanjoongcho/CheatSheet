@@ -38,7 +38,11 @@ DISJOINT(the_geom, LINESTRING (-74.00508642196655 40.71391582489014, -74.0085625
 ## ~05. DWITHIN 테스트~
 SRS가 EPSG:4326인 경우 <span style="color:red">meters, kilometers unit을 지원하지 않는 이슈 있음</span>  
 tiger-ny Layer의 경우 SRS가 EPSG:4326 이므로 TM 좌표로 reprojection하거나 distance값을 degree값으로 입력해야 함
-DWITHIN(the_geom, LINESTRING (-74.00508642196655 40.71391582489014, -74.00856256484985 40.711984634399414, -74.00311231613159 40.70803642272949, -74.00495767593384 40.70357322692871), ~100, meters~)
+DWITHIN(the_geom, LINESTRING (-74.00508642196655 40.71391582489014, -74.00856256484985 40.711984634399414, -74.00311231613159 40.70803642272949, -74.00495767593384 40.70357322692871), ~100, meters~)  
+
+따라서 WFS의 경우 서비스 생성시 지정한 Declared SRS를 기준으로 쿼리를 해야 하며 WMS의 경우 Native SRS를 기준으로 쿼리를 요청해야 함  
+WMS 쿼리의 경우 Declared SRS가 4326이면 meter 단위의 반경 검색을 연산할 수 없으므로 degree 단위로 변환해서 쿼리를 요청 해야 하며, WFS 쿼리의 경우 4326 좌표체계를 이용하더라도 meter단위의 반경 검색이 가능함
+
 
 ## 06. 참고링크
 https://docs.geoserver.org/stable/en/user/filter/ecql_reference.html
