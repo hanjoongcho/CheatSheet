@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="EUC-KR"?>
+癤�<?xml version="1.0" encoding="EUC-KR"?>
 <StyledLayerDescriptor version="1.0.0"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 	xmlns="http://www.opengis.net/sld"
@@ -36,7 +36,7 @@
 							</ogc:Function>
 						</Label>
 						<Font>
-							<CssParameter name="font-family">굴림체</CssParameter>
+							<CssParameter name="font-family">援대┝泥�</CssParameter>
 							<CssParameter name="font-size">12</CssParameter>
 							<CssParameter name="font-style">normal</CssParameter>
 							<CssParameter name="font-weight">bold</CssParameter>
