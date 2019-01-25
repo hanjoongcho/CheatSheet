@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="EUC-KR"?>
+癤�<?xml version="1.0" encoding="EUC-KR"?>
 <StyledLayerDescriptor version="1.0.0"
 	xmlns="http://www.opengis.net/sld"
 	xmlns:ogc="http://www.opengis.net/ogc"
@@ -44,7 +44,7 @@
 							<ogc:PropertyName>NODE_NAME</ogc:PropertyName>
 						</Label>
 						<Font>
-							<CssParameter name="font-family">굴림체</CssParameter>
+							<CssParameter name="font-family">援대┝泥�</CssParameter>
 							<CssParameter name="font-weight">Bold</CssParameter>
 							<CssParameter name="font-size">11</CssParameter>
 						</Font>

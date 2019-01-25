@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="EUC-KR"?>
+ï»¿<?xml version="1.0" encoding="EUC-KR"?>
 <StyledLayerDescriptor version="1.0.0"
   xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.0.0/StyledLayerDescriptor.xsd"
 	xmlns="http://www.opengis.net/sld"
@@ -11,7 +11,7 @@
 			<Title>polygon style</Title>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name>¼­¿ïÆ¯º°½Ã</Name>
+					<Name>ì„œìš¸íŠ¹ë³„ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -36,7 +36,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>ºÎ»ê±¤¿ª½Ã</Name>
+					<Name>ë¶€ì‚°ê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -61,7 +61,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>´ë±¸±¤¿ª½Ã</Name>
+					<Name>ëŒ€êµ¬ê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -86,7 +86,7 @@
 					</PolygonSymbolizer>
 				</Rule>
               <Rule>
-					<Name>ÀÎÃµ±¤¿ª½Ã</Name>
+					<Name>ì¸ì²œê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -111,7 +111,7 @@
 					</PolygonSymbolizer>
 				</Rule>
               <Rule>
-					<Name>±¤ÁÖ±¤¿ª½Ã</Name>
+					<Name>ê´‘ì£¼ê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -136,7 +136,7 @@
 					</PolygonSymbolizer>
 				</Rule>   
               <Rule>
-					<Name>´ëÀü±¤¿ª½Ã</Name>
+					<Name>ëŒ€ì „ê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -161,7 +161,7 @@
 					</PolygonSymbolizer>
 				</Rule>   
               <Rule>
-					<Name>¿ï»ê±¤¿ª½Ã</Name>
+					<Name>ìš¸ì‚°ê´‘ì—­ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -186,7 +186,7 @@
 					</PolygonSymbolizer>
 				</Rule>   
               <Rule>
-					<Name>¼¼Á¾Æ¯º°ÀÚÄ¡½Ã</Name>
+					<Name>ì„¸ì¢…íŠ¹ë³„ìžì¹˜ì‹œ</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -211,7 +211,7 @@
 					</PolygonSymbolizer>
 				</Rule>  
 				<Rule>
-					<Name>°æ±âµµ</Name>
+					<Name>ê²½ê¸°ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -236,7 +236,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>°­¿øµµ</Name>
+					<Name>ê°•ì›ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -261,7 +261,7 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name>ÃæÃ»ºÏµµ</Name>
+					<Name>ì¶©ì²­ë¶ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -286,7 +286,7 @@
 					</PolygonSymbolizer>
 				</Rule>
               <Rule>
-					<Name>ÃæÃ»³²µµ</Name>
+					<Name>ì¶©ì²­ë‚¨ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -311,7 +311,7 @@
 					</PolygonSymbolizer>
 				</Rule>  
               <Rule>
-					<Name>Àü¶óºÏµµ</Name>
+					<Name>ì „ë¼ë¶ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -336,7 +336,7 @@
 					</PolygonSymbolizer>
 				</Rule>  
               <Rule>
-					<Name>Àü¶ó³²µµ</Name>
+					<Name>ì „ë¼ë‚¨ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -361,7 +361,7 @@
 					</PolygonSymbolizer>
 				</Rule>   
               <Rule>
-					<Name>°æ»óºÏµµ</Name>
+					<Name>ê²½ìƒë¶ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -386,7 +386,7 @@
 					</PolygonSymbolizer>
 				</Rule>    
               <Rule>
-					<Name>°æ»ó³²µµ</Name>
+					<Name>ê²½ìƒë‚¨ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -411,7 +411,7 @@
 					</PolygonSymbolizer>
 				</Rule>  
               <Rule>
-					<Name>Á¦ÁÖÆ¯º°ÀÚÄ¡µµ</Name>
+					<Name>ì œì£¼íŠ¹ë³„ìžì¹˜ë„</Name>
 					<ogc:Filter>
 						<ogc:And>
 							<ogc:PropertyIsGreaterThanOrEqualTo>
@@ -449,7 +449,7 @@
 							</ogc:Function>
 						</Label>
 						<Font>
-							<CssParameter name="font-family">±¼¸²Ã¼</CssParameter>
+							<CssParameter name="font-family">êµ´ë¦¼ì²´</CssParameter>
 							<CssParameter name="font-size">13</CssParameter>
 							<CssParameter name="font-style">normal</CssParameter>
                             <CssParameter name="font-weight">bold</CssParameter>
