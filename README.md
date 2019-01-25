@@ -7,9 +7,11 @@
 - [OpenLayers CQL Filter를 이용한 공간검색 필터링](openlayers_cql_filter.md)  
 ## Openlayers + Geoserver
 - [시군구(폴리곤) 데이터와 표준링크(라인) 데이터를 이용한 Layer Group 생성 및 스타일링](mulitiple_layer_01.md)  
-## Geoserver SLD sample
-- [SLD(Styled Layer Descriptor) 샘플-Polygon 심플 스타일 설정 + Label 생성](geoserver/sld/TL_SCCO_SIG_polygon_label.sld.xml)
-- [SLD(Styled Layer Descriptor) 샘플-Polygon 멀티플 스타일 설정 + Label 생성](geoserver/sld/TL_SCCO_SIG_polygon_multiplecolor.sld.xml)
+## Geoserver SLD(Styled Layer Descriptor) sample
+- [Polygon: 멀티플 스타일 설정 + Label](geoserver/sld/TL_SCCO_SIG_multiplecolor.sld)
+- [Line: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_LINK.sld)
+- [Point: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_NODE.sld)
+
 ## Oracle Spatial
 - [사용자정의 좌표계 추가, 좌표변환, 거리측정, 면적측정](oracle_spatail_01.md)
 
