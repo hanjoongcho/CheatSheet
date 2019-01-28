@@ -6,7 +6,7 @@
 ## Openlayers
 - [OpenLayers CQL Filter를 이용한 공간검색 필터링](openlayers_cql_filter.md)  
 ## Openlayers + Geoserver + Oracle Spatial
-- [시군구(폴리곤) + 표준링크(라인) + 표준링크(포인트) 데이터를 이용한 Layer Group 생성 및 스타일링](geoserver/mulitiple_layer_01.md)  
+- [시군구(폴리곤) + 표준링크(라인) + 표준링크(포인트) 데이터를 이용한 Layer Group 생성 및 스타일링(작성중)](geoserver/mulitiple_layer_01.md)  
 ## Geoserver SLD(Styled Layer Descriptor) sample
 - [Polygon: 멀티플 스타일 설정 + Label](geoserver/sld/TL_SCCO_SIG_multiplecolor.sld)
 - [Line: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_LINK.sld)
