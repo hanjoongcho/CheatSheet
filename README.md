@@ -13,7 +13,7 @@
 - [Point: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_NODE.sld)
 
 ## Oracle Spatial
-- [사용자정의 좌표계 추가, 좌표변환, 거리측정, 면적측정](oracle_spatail_01.md)
+- [사용자정의 좌표계 추가, 좌표변환, 거리측정, 면적측정](oracle_spatial_01.md)
 
 # 📌설치 및 설정 가이드
 - [Openproject Virtual Machine에 설치하기](openproject_vm.md)
