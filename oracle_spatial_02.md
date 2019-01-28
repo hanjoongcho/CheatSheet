@@ -2,7 +2,7 @@
 시군구경계 및 표준노드 데이터를 이용한 공간검색
 
 ## 01. 표준링크 Linestring 길이측정
-'내남송길' 전체구간 길이 합산
+'내남송길' 전체구간 길이 합산(EPSG:5179 기준)
 ```
 SELECT ROUND(
           SUM(SDO_GEOM.SDO_LENGTH(GEOMETRY, 0.0005, 'unit=KM')),
@@ -12,6 +12,17 @@ SELECT ROUND(
   WHERE ROAD_NAME = '내남송길'
 ------------------------------------------------------- 결과값: 3.326km
 ```
+'내남송길' 전체구간 길이 합산(EPSG:4326 기준)
+```
+SELECT ROUND(
+          SUM(SDO_GEOM.SDO_LENGTH(SDO_CS.TRANSFORM(GEOMETRY, 4326), 0.0005, 'unit=KM')),
+          3
+       ) || 'km' AS DISTANCE_TOTAL
+  FROM MOCT_LINK_5179
+  WHERE ROAD_NAME = '내남송길'
+------------------------------------------------------- 결과값: 3.168km
+```
+
 ## 02. 시군구 Polygon 면적측정
 ```
 SELECT ROUND(
