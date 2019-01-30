@@ -9,12 +9,15 @@ https://docs.geoserver.org/latest/en/user/geowebcache/config.html
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
 <web-app>
-    <display-name>GeoServer</display-name>
-    <context-param>
-        <param-name>serviceStrategy</param-name>
-        <param-value>PARTIAL-BUFFER2</param-value>
-        <param-name>GEOWEBCACHE_CACHE_DIR</param-name>
-        <param-value>C:\Dev_Suite\gwc</param-value>
+  <display-name>GeoServer</display-name>
+  <context-param>
+    <param-name>serviceStrategy</param-name>
+    <param-value>PARTIAL-BUFFER2</param-value>
+  </context-param>
+  <context-param>
+    <param-name>GEOWEBCACHE_CACHE_DIR</param-name>
+    <param-value>D:\gwc</param-value>
+  </context-param>
 ```
 ## 03. Gridset 생성
 Gridset bounds를 기준으로 Resolution이 계산됨
