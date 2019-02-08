@@ -21,7 +21,7 @@
 ### 시군구(폴리곤) + 표준링크(라인) + 표준노드(포인트)  
 <img src='screenshots/04.PNG' />  
 
-### VWorld + 표준링크(라인) + 표준노드 Heatmap
+### VWorld 배경지도 + 표준링크(라인) + 표준노드 Heatmap
 <img src='screenshots/06.PNG' />  
 
 ## 03. Shp file Oracle Saptial에 Import하기
