@@ -39,6 +39,25 @@ javac -version
 https://shaeod.tistory.com/748   
 http://ehpub.co.kr/4-%EB%A6%AC%EB%88%85%EC%8A%A4-%ED%99%98%EA%B2%BD-%EB%B3%80%EC%88%98-%EB%AA%A9%EB%A1%9D%EC%9D%84-%ED%99%95%EC%9D%B8%ED%95%A0-%EB%95%8C%EB%8A%94-expert-%EB%AA%85%EB%A0%B9%EC%9D%84-%EC%82%AC%EC%9A%A9/
 
+## 05-01. 환경변수 편집
+https://blog.hanumoka.net/2018/04/30/centOs-20180430-centos-install-jdk/
+```
+[root@localhost etc]# echo $JAVA_HOME
+
+[root@localhost etc]# which javac
+/usr/bin/javac
+[root@localhost etc]# readlink /usr/bin/javac
+/etc/alternatives/javac
+[root@localhost etc]# readlink /etc/alternatives/javac
+/usr/lib/jvm/java-1.8.0-openjdk.x86_64/bin/javac
+[root@localhost etc]# vi /etc/profile
+[root@localhost etc]# source /etc/profile
+[root@localhost etc]# echo $JAVA_HOME
+/usr/lib/jvm/java-1.8.0-openjdk.x86_64/
+[root@localhost etc]#
+
+```
+
 ## 06. Apache Tomcat 설치
 https://victorydntmd.tistory.com/224
 
