@@ -44,3 +44,4 @@ https://victorydntmd.tistory.com/224
 
 ## 07. 방화벽 예외설정
 http://blog.plura.io/?p=4519
+https://unix.stackexchange.com/questions/109443/open-port-80-in-centos-6-5
