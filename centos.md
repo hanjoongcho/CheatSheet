@@ -1,4 +1,4 @@
-# VMware CentOS Image 설치 기본환경 설정하기
+# VMware CentOS Image 설치 및 기본환경 설정하기
 
 ## 01. 이미지 다운로드
 CentOS 6.10 다운로드 링크:  
