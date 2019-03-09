@@ -12,7 +12,7 @@
 - [Line: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_LINK.sld)
 - [Point: 멀티플 스타일 설정 + Label](geoserver/sld/MOCT_NODE.sld)
 ## Geoserver 환경설정
--[GeoWebCache를 이용한 WMS 캐싱설정](geoserver/geowebcache.md)
+- [GeoWebCache를 이용한 WMS 캐싱설정](geoserver/geowebcache.md)
 ## Oracle Spatial
 - [사용자정의 좌표계 추가, 좌표변환, 거리측정, 면적측정](oracle_spatial_01.md)
 - [시군구경계 및 표준노드 데이터를 이용한 공간검색](oracle_spatial_02.md)
