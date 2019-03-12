@@ -41,8 +41,10 @@ tiger-ny Layer의 경우 SRS가 EPSG:4326 이므로 TM 좌표로 reprojection하
 DWITHIN(the_geom, LINESTRING (-74.00508642196655 40.71391582489014, -74.00856256484985 40.711984634399414, -74.00311231613159 40.70803642272949, -74.00495767593384 40.70357322692871), ~100, meters~)  
 
 따라서 WFS의 경우 서비스 생성시 지정한 Declared SRS를 기준으로 쿼리를 해야 하며 WMS의 경우 Native SRS를 기준으로 쿼리를 요청해야 함  
-WMS 쿼리의 경우 Declared SRS가 4326이면 meter 단위의 반경 검색을 연산할 수 없으므로 degree 단위로 변환해서 쿼리를 요청 해야 하며, WFS 쿼리의 경우 4326 좌표체계를 이용하더라도 meter단위의 반경 검색이 가능함
+WMS 쿼리의 경우 Declared SRS가 4326이면 meter 단위의 반경 검색을 연산할 수 없으므로 degree 단위로 변환해서 쿼리를 요청 해야 하며, WFS 쿼리의 경우 4326 좌표체계를 이용하더라도 meter단위의 반경 검색이 가능함  
 
+**2019년 03월 12일 추가 사항**  
+_WMS의 경우 srs(WMS1.3.0인경우 crs)parameter를 이용하여 좌표계 설정이 가능하고 WFS의 경우 srsName parameter를 이용하여 좌표계 설정이 가능하다고 함_
 
 ## 06. 참고링크
 https://docs.geoserver.org/stable/en/user/filter/ecql_reference.html
