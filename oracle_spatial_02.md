@@ -71,3 +71,41 @@ SELECT ROUND(SDO_GEOM.SDO_DISTANCE(
   FROM DUAL
 ------------------------------------------------------- 결과값: 2.542km 
 ``` 
+
+## 06. 표준링크 반경검색 후 거리 기준으로 정렬하기
+```
+SELECT ROAD_NAME,
+            ROUND
+                 (SDO_GEOM.SDO_DISTANCE (GEOMETRY,
+                                         (SELECT GEOMETRY
+                                            FROM MOCT_NODE_5179
+                                           WHERE NODE_NAME = '태평역사거리'),
+                                         0.0005,
+                                         'unit=KM'
+                                        ),
+                  3
+                 )
+         || 'km' AS DISTANCE
+    FROM MOCT_LINK_5179
+   WHERE SDO_WITHIN_DISTANCE (GEOMETRY,
+                              (SELECT GEOMETRY
+                                 FROM MOCT_NODE_5179
+                                WHERE NODE_NAME = '태평역사거리'),
+                              'distance=0.2 unit=KM'
+                             ) = 'TRUE'
+ORDER BY DISTANCE ASC
+``` 
+|   ROAD_NAME   | DISTANCE |
+|:-------------:|:--------:|
+|     수정로    |  .006km  |
+|     수정로    |  .006km  |
+| 일반국도3호선 |  .006km  |
+| 일반국도3호선 | .006km   |
+| 수정로        | .006km   |
+| 수정로        | .006km   |
+| 일반국도3호선 | .006km   |
+| 일반국도3호선 | .006km   |
+| 아래숯골길    | .164km   |
+| 수정로        | .169km   |
+| 수정로        | .171km   |
+| 아래숯골길    | .176km   |
