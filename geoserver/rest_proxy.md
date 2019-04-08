@@ -4,10 +4,10 @@
 클라이언트에서 직접 인증 처리를 하고 싶다면 아래 링크를 참고하면 됨.  
 https://stackoverflow.com/questions/5507234/use-basic-authentication-with-jquery-and-ajax
 
-## Geoserver rest 목록  
+## 01. Geoserver rest 목록  
 https://docs.geoserver.org/stable/en/user/rest/
 
-## Geoserver rest 주요 Endpoint
+## 02. Geoserver rest 주요 Endpoint
 | 최상위 호출 URL                                      |
 |------------------------------------------------------|
 | /rest/workspaces                                     |
@@ -21,7 +21,7 @@ https://docs.geoserver.org/stable/en/user/rest/
 | /rest/workspaces/{layergroupName}/layers             |
 | /rest/workspaces/{layergroupName}/layers/{layerName} |
 
-## Spring-Boot를 이용한 간단한 Proxy처리용 컨트롤러 만들기
+## 03. Spring-Boot를 이용한 간단한 Proxy처리용 컨트롤러 만들기
 BasicAuthentication.java
 ```
 package geoserver.rest.helper;
@@ -87,8 +87,8 @@ public String restProxyRoot(HttpServletRequest request, @PathVariable String end
 }
 ```
 
-## Geoserver REST 호출 테스트
+## 04. Geoserver REST 호출 테스트
 <img src='screenshots/07.PNG' />  
 
-## Geoserver Proxy REST 호출 테스트
+## 05. Geoserver Proxy REST 호출 테스트
 <img src='screenshots/08.PNG' />  
