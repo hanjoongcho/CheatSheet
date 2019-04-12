@@ -2,6 +2,9 @@
 - [RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/RequireJS/index)
 - [proj4js with RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/proj4js/index)
 
+# 📌알고리즘
+- [원과 포인트 충돌 검사하기](https://github.com/hanjoongcho/CheatSheet/blob/master/algorithm/2D-Collision_01.md)  
+
 # 📌GIS CheatSheet
 ## Openlayers
 - [OpenLayers CQL Filter를 이용한 공간검색 필터링](openlayers_cql_filter.md)  
