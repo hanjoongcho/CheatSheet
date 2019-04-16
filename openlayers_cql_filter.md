@@ -46,6 +46,10 @@ WMS 쿼리의 경우 Declared SRS가 4326이면 meter 단위의 반경 검색을
 **2019년 03월 12일 추가 사항**  
 _WMS의 경우 srs(WMS1.3.0인경우 crs)parameter를 이용하여 좌표계 설정이 가능하고 WFS의 경우 srsName parameter를 이용하여 좌표계 설정이 가능하다고 함_
 
+**2019년 04월 17일 추가 사항**  
+_좌표계 설정이 가능하더라도 [제약](geoserver/cql_filter.md)은 있음_
+
+
 ## 06. 참고링크
 https://docs.geoserver.org/stable/en/user/filter/ecql_reference.html
 https://stackoverflow.com/questions/45333651/geoserver-dwithin-not-filtering-points-correctly
