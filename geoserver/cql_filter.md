@@ -1,0 +1,19 @@
+# Geoserver WMS, WFS 동적 좌표계 설정 및 CQL필터 적용하기
+
+## WMS 동적 좌표계 설정 및 CQL필터 적용하기
+__Geoserver 샘플레이어인 tiger:tiger_roads 레이어를 이용하여 테스트를 진행함__
+
+01. 테스트 대상 레이어 Native SRS 확인
+<img src='geoserver/screenshots/tiger_roads.PNG' />
+
+02. Native SRS(EPSG:4326)에 CQL필터 적용후 WMS 요청하기
+```
+http://localhost:18081/geoserver/tiger/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=tiger%3Atiger_roads&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A4326&STYLES=&WIDTH=477&HEIGHT=769&BBOX=-73.99043172600746,40.730780661077496,-73.94957453009606,40.796700418024066&CQL_FILTER=NAME%20LIKE%20%27%25E%20%25%27
+```
+<img src='geoserver/screenshots/WMS_CQL_4326.PNG' />
+
+03. EPSG:3857로 좌표계를 변경하고 CQL필터 적용후 WMS 요청하기
+```
+http://localhost:18081/geoserver/tiger/wms?SERVICE=WMS&VERSION=1.1.1&REQUEST=GetMap&FORMAT=image%2Fpng&TRANSPARENT=true&LAYERS=tiger%3Atiger_roads&exceptions=application%2Fvnd.ogc.se_inimage&SRS=EPSG%3A3857&STYLES=&WIDTH=477&HEIGHT=769&BBOX=-8236577.18,4972712.61,-8232028.98,4982401.11&CQL_FILTER=NAME%20LIKE%20%27%25E%20%25%27
+```
+<img src='geoserver/screenshots/WMS_CQL_3857.PNG' />
