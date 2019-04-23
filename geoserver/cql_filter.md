@@ -8,6 +8,11 @@
 | 공간검색 CQL 필터             | Native SRS와 동일하면 사용가능                                                | Declared SRS와 동일하면 사용가능                                                |
 | 반경검색에 Meter단위 사용여부 | Native SRS가 투영좌표계면 가능(만약 EPSG:4326이면 미터를 Degree로 환산해야 함)  | Declared SRS가 투영좌표계면 가능(만약 EPSG:4326이면 미터를 Degree로 환산해야 함) |
 
+WFS에 대한 동적 SRS 설정이 완전히 불가능한 것은 아님.  
+다음 예시와 같이 BBOX에 좌표계를 설정할 수 있음  
+ex> bbox=126.87932373,37.40620619,126.87932373,37.50620619,urn:ogc:def:crs:EPSG:4326  
+
+
 ## WMS 동적 좌표계 설정 및 CQL필터 적용하기
 __Geoserver 샘플레이어인 tiger:tiger_roads 레이어를 이용하여 테스트를 진행함__
 
