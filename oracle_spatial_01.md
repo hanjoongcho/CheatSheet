@@ -17,6 +17,9 @@ INSERT INTO MDSYS.CS_SRS
      VALUES ('Korea_2000_Korea_Unified_Coordinate_System', 5179, 5179, NULL,
              'PROJCS["Korea 2000 Korea Unified Coordinate System",GEOGCS["ITRF2000",DATUM["IERS Terrestrial Reference Frame 2000",SPHEROID["GRS 1980",6378137.0,298.257222101]],PRIMEM["Greenwich",0.0],UNIT["Decimal Degree",0.017453293]],PROJECTION["Transverse Mercator"],PARAMETER["False_Easting",1000000.0],PARAMETER["False_Northing",2000000.0],PARAMETER["Central_Meridian",127.5],PARAMETER["Scale_Factor",0.9996],PARAMETER["Latitude_Of_Origin",38.0],UNIT["Meter",1.0]]'
             );
+            
+-- 03. 좌표계 검증            
+SELECT SDO_CS.VALIDATE_WKT(3857) FROM DUAL
 ```
 
 ## 02. Point to Point 거리 측정하기
