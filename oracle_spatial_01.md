@@ -19,7 +19,7 @@ INSERT INTO MDSYS.CS_SRS
             );
             
 -- 03. 좌표계 검증            
-SELECT SDO_CS.VALIDATE_WKT(3857) FROM DUAL
+SELECT SDO_CS.VALIDATE_WKT(5179) FROM DUAL
 ```
 
 ## 02. Point to Point 거리 측정하기
