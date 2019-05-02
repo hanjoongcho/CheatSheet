@@ -1,4 +1,7 @@
 # Openlayers Cluster Maker 만들기
+<img src='screenshots/openlayers_clustered_features/01.PNG' />  
+<img src='screenshots/openlayers_clustered_features/02.PNG' />  
+<img src='screenshots/openlayers_clustered_features/03.PNG' />  
 
 ## 01. Random Point Feature 생성
 ```
