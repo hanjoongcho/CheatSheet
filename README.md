@@ -8,6 +8,7 @@
 # 📌GIS CheatSheet
 ## Openlayers
 - [OpenLayers CQL Filter를 이용한 공간검색 필터링](openlayers_cql_filter.md)  
+- [Openlayers Cluster Marker 만들기](openlayers_clustered_features.md)  
 
 ## Geoserver 
 - [Geoserver WMS, WFS 동적 좌표계 설정 및 CQL필터 적용하기](geoserver/cql_filter.md)  
