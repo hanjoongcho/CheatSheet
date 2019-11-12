@@ -2,6 +2,14 @@
 - [RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/RequireJS/index)
 - [proj4js with RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/proj4js/index)
 
+# 📌Open Source Library 링크정보
+## fabric.js
+Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
+- [GitHub](https://github.com/fabricjs/fabric.js)
+- [Demos](http://fabricjs.com/demos/)
+- [Kitchensink demo](http://fabricjs.com/kitchensink)
+- [Benchmarks](http://fabricjs.com/benchmarks/)
+
 # 📌알고리즘
 - [원과 포인트 충돌 검사하기](https://github.com/hanjoongcho/CheatSheet/blob/master/algorithm/2D-Collision_01.md)  
 
