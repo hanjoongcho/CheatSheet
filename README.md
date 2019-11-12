@@ -3,7 +3,7 @@
 - [proj4js with RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/proj4js/index)
 
 # 📌Open Source Library 링크정보
-## fabric.js
+## fabric.js(MIT License)
 Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 - [GitHub](https://github.com/fabricjs/fabric.js)
 - [Demos](http://fabricjs.com/demos/)
