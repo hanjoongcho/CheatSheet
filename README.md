@@ -10,6 +10,10 @@ Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 - [Kitchensink demo](http://fabricjs.com/kitchensink)
 - [Benchmarks](http://fabricjs.com/benchmarks/)
 
+## ckeditor4(GNU Lesser General Public License Version 2.1 or later)
+- [GitHub](https://github.com/ckeditor/ckeditor4)
+- [File Manager](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_file_upload.html)
+
 # 📌알고리즘
 - [원과 포인트 충돌 검사하기](https://github.com/hanjoongcho/CheatSheet/blob/master/algorithm/2D-Collision_01.md)  
 
