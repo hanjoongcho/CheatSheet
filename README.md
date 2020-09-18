@@ -1,3 +1,8 @@
+# 📌Spring Boot
+## Spring Security
+- https://github.com/szerhusenBC/jwt-spring-security-demo
+- https://spring.io/guides/gs/securing-web/
+
 # 📌Open Source Library 샘플 프로젝트
 - [RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/RequireJS/index)
 - [proj4js with RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/proj4js/index)
