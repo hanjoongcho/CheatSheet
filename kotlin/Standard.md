@@ -45,10 +45,6 @@ public inline fun <T> T.apply(block: T.() -> Unit): T {
     return this
 }
 ```
-### 
-```kotlin
-
-```
 ### Calls the specified function block with this value as its argument and returns this value.
 ```kotlin
 /**
