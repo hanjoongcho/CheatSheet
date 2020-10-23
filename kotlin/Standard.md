@@ -1,6 +1,6 @@
 ## Kotlin Standard Library 
 ### Calls the specified function block with this value as its receiver and returns its result.
-```javascript
+```kotlin
 /**
  * Calls the specified function [block] with `this` value as its receiver and returns its result.
  *
@@ -15,7 +15,7 @@ public inline fun <T, R> T.run(block: T.() -> R): R {
 }
 ```
 ### Calls the specified function block with this value as its argument and returns its result.
-```python
+```kotlin
 /**
  * Calls the specified function [block] with `this` value as its argument and returns its result.
  *
@@ -30,7 +30,7 @@ public inline fun <T, R> T.let(block: (T) -> R): R {
 }
 ```
 ### Calls the specified function block with this value as its receiver and returns this value.
-```java
+```kotlin
 /**
  * Calls the specified function [block] with `this` value as its receiver and returns `this` value.
  *
