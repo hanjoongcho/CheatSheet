@@ -15,7 +15,7 @@ public inline fun <T, R> T.run(block: T.() -> R): R {
 }
 ```
 ### Calls the specified function block with this value as its argument and returns its result.
-```kotlin
+```java
 /**
  * Calls the specified function [block] with `this` value as its argument and returns its result.
  *
