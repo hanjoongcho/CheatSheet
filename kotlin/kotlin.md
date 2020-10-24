@@ -24,9 +24,9 @@ public inline fun <T, R> T.let(block: (T) -> R): R {
 }
 ```
 ## apply
-```kotlin
 > Calls the specified function [block] with `this` value as its receiver and returns `this` value.   
 > For detailed usage information see the documentation for [scope functions](https://kotlinlang.org/docs/reference/scope-functions.html#apply).   
+```kotlin
 @kotlin.internal.InlineOnly
 public inline fun <T> T.apply(block: T.() -> Unit): T {
     contract {
