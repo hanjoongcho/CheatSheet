@@ -1,13 +1,7 @@
 ### Core functions and types, available on all supported platforms.
 ## run
-```kotlin
-/**
- * Calls the specified function [block] with `this` value as its receiver and returns its result.
- *
- * For detailed usage information see the documentation for [scope functions](https://kotlinlang.org/docs/reference/scope-functions.html#run).
- */
-
-```
+> Calls the specified function [block] with `this` value as its receiver and returns its result.   
+> For detailed usage information see the documentation for [scope functions](https://kotlinlang.org/docs/reference/scope-functions.html#run).
 ```kotlin
 @kotlin.internal.InlineOnly
 public inline fun <T, R> T.run(block: T.() -> R): R {
