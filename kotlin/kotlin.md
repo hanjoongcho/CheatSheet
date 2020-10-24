@@ -1,5 +1,6 @@
-## Kotlin Standard Library 
-### Calls the specified function block with this value as its receiver and returns its result.
+## Core functions and types, available on all supported platforms.
+### run
+#### Calls the specified function block with this value as its receiver and returns its result.
 ```kotlin
 /**
  * Calls the specified function [block] with `this` value as its receiver and returns its result.
@@ -14,7 +15,8 @@ public inline fun <T, R> T.run(block: T.() -> R): R {
     return block()
 }
 ```
-### Calls the specified function block with this value as its argument and returns its result.
+## let
+#### Calls the specified function block with this value as its argument and returns its result.
 ```kotlin
 /**
  * Calls the specified function [block] with `this` value as its argument and returns its result.
@@ -29,7 +31,8 @@ public inline fun <T, R> T.let(block: (T) -> R): R {
     return block(this)
 }
 ```
-### Calls the specified function block with this value as its receiver and returns this value.
+## apply
+#### Calls the specified function block with this value as its receiver and returns this value.
 ```kotlin
 /**
  * Calls the specified function [block] with `this` value as its receiver and returns `this` value.
@@ -45,7 +48,8 @@ public inline fun <T> T.apply(block: T.() -> Unit): T {
     return this
 }
 ```
-### Calls the specified function block with this value as its argument and returns this value.
+## also
+#### Calls the specified function block with this value as its argument and returns this value.
 ```kotlin
 /**
  * Calls the specified function [block] with `this` value as its argument and returns `this` value.
