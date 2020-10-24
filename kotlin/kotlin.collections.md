@@ -10,3 +10,12 @@ public inline fun <T> Iterable<T>.sumBy(selector: (T) -> Int): Int {
     return sum
 }
 ```
+## groupBy
+> Groups elements of the original collection by the key returned by the given [keySelector] function applied to each element and returns a map where each group key is associated with a list of corresponding elements.   
+> The returned map preserves the entry iteration order of the keys produced from the original collection.   
+> @sample samples.collections.Collections.Transformations.groupBy
+```kotlin
+public inline fun <T, K> Iterable<T>.groupBy(keySelector: (T) -> K): Map<K, List<T>> {
+    return groupByTo(LinkedHashMap<K, MutableList<T>>(), keySelector)
+}
+```
