@@ -19,3 +19,17 @@ public inline fun <T, K> Iterable<T>.groupBy(keySelector: (T) -> K): Map<K, List
     return groupByTo(LinkedHashMap<K, MutableList<T>>(), keySelector)
 }
 ```
+## groupByTo
+> Groups elements of the original collection by the key returned by the given [keySelector] function applied to each element and puts to the [destination] map each group key associated with a list of corresponding elements.  
+> @return The [destination] map.  
+> @sample samples.collections.Collections.Transformations.groupBy
+```kotlin
+public inline fun <T, K, M : MutableMap<in K, MutableList<T>>> Iterable<T>.groupByTo(destination: M, keySelector: (T) -> K): M {
+    for (element in this) {
+        val key = keySelector(element)
+        val list = destination.getOrPut(key) { ArrayList<T>() }
+        list.add(element)
+    }
+    return destination
+}
+```
