@@ -1,4 +1,13 @@
 ### Collection types, such as Iterable, Collection, List, Set, Map and related top-level and extension functions.
+## find
+> Returns the first element matching the given [predicate], or `null` if no such element was found.  
+> @sample samples.collections.Collections.Elements.find
+```kotlin
+@kotlin.internal.InlineOnly
+public inline fun <T> Iterable<T>.find(predicate: (T) -> Boolean): T? {
+    return firstOrNull(predicate)
+}
+```
 ## sumBy
 > Returns the sum of all values produced by [selector] function applied to each element in the collection.
 ```kotlin
