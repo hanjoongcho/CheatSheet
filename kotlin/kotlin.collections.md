@@ -8,6 +8,26 @@ public inline fun <T> Iterable<T>.find(predicate: (T) -> Boolean): T? {
     return firstOrNull(predicate)
 }
 ```
+## firstOrNull
+> Returns the first element, or `null` if the collection is empty.
+```kotlin
+public fun <T> Iterable<T>.firstOrNull(): T? {
+    when (this) {
+        is List -> {
+            if (isEmpty())
+                return null
+            else
+                return this[0]
+        }
+        else -> {
+            val iterator = iterator()
+            if (!iterator.hasNext())
+                return null
+            return iterator.next()
+        }
+    }
+}
+```
 ## sumBy
 > Returns the sum of all values produced by [selector] function applied to each element in the collection.
 ```kotlin
