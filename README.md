@@ -49,7 +49,7 @@ Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 - [File Manager](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_file_upload.html)
 
 # 📌Android Open Source Project
-## Android testing samples
+## android/testing-samples
 A collection of samples demonstrating different frameworks and techniques for automated testing.
 - [GitHub](https://github.com/android/testing-samples)
 
