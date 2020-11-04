@@ -48,7 +48,15 @@ Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 - [GitHub](https://github.com/ckeditor/ckeditor4)
 - [File Manager](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_file_upload.html)
 
-# 📌Android Open Source Project
+# 📌Android Open Source Application
+## fossasia/open-event-organizer-android
+Event management app for organizers using Open Event Platform
+- [GitHub](https://github.com/fossasia/open-event-organizer-android)
+
+# 📌Android Open Source Library
+
+
+# 📌Android Development Guide
 ## android/testing-samples
 A collection of samples demonstrating different frameworks and techniques for automated testing.
 - [GitHub](https://github.com/android/testing-samples)
