@@ -36,6 +36,25 @@
 좋은 개발팀을 만드는데 도움이 되는 자료입니다. 많은 분들의 참여로 좋은 문서들을 많이 모아 나갔으면 합니다.
 - [GitHub](https://github.com/leehosung/awesome-devteam)
 
+## javascript-tutorial/ko.javascript.info
+모던 자바스크립트 튜토리얼
+-[GitHub](https://github.com/javascript-tutorial/ko.javascript.info)
+
+# 📌Android Open Source Application
+## fossasia/open-event-organizer-android
+Event management app for organizers using Open Event Platform
+- [GitHub](https://github.com/fossasia/open-event-organizer-android)
+
+# 📌Android Open Source Library
+## AppIntro/AppIntro
+AppIntro is an Android Library that helps you build a cool carousel intro for your App. AppIntro has support for requesting permissions and helps you create a great onboarding experience in just a couple of minutes.
+- [GitHub](https://github.com/AppIntro/AppIntro)
+
+# 📌Android Development Guide
+## android/testing-samples
+A collection of samples demonstrating different frameworks and techniques for automated testing.
+- [GitHub](https://github.com/android/testing-samples)
+
 # 📌JS Open Source Project
 ## fabric.js(MIT License)
 Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
@@ -47,19 +66,6 @@ Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 ## ckeditor4(GNU Lesser General Public License Version 2.1 or later)
 - [GitHub](https://github.com/ckeditor/ckeditor4)
 - [File Manager](https://ckeditor.com/docs/ckeditor4/latest/guide/dev_file_upload.html)
-
-# 📌Android Open Source Application
-## fossasia/open-event-organizer-android
-Event management app for organizers using Open Event Platform
-- [GitHub](https://github.com/fossasia/open-event-organizer-android)
-
-# 📌Android Open Source Library
-
-
-# 📌Android Development Guide
-## android/testing-samples
-A collection of samples demonstrating different frameworks and techniques for automated testing.
-- [GitHub](https://github.com/android/testing-samples)
 
 # 📌Open Source Project Mashup Demo 
 - [RequireJS](https://hanjoongcho.github.io/awesome-bokjeong/RequireJS/index)
