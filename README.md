@@ -48,6 +48,12 @@ Technical Interview Guidelines for Beginners
 모던 자바스크립트 튜토리얼
 - [GitHub](https://github.com/javascript-tutorial/ko.javascript.info)
 
+## bmaslakov/kotlin-algorithm-club
+> Here you can find the most common algorithms and data structures written in Kotlin.
+> The goal of this project is to create the most eloquent implementations of old algorithms in the new language. The code is meant to be as self-describing as possible, so I do not plan to include much documentation. It is assumed that you know the basics; if you want to learn algorithms perhaps it is a wrong place. I do full-heartedly recommend The Algorithm Design Manual by Steven Skiena and of course...  
+
+https://github.com/bmaslakov/kotlin-algorithm-club
+
 # 📌Android Open Source Application
 ## fossasia/open-event-organizer-android
 Event management app for organizers using Open Event Platform
@@ -66,6 +72,10 @@ A collection of samples demonstrating different frameworks and techniques for au
 ## LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android
 This repository is intended to be a "Playground Project". You can quickly look up and play around with the different Coroutine Android implementations. In the playground package you can play around with Coroutines examples that run directly on the JVM.
 - [GitHub](https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android)
+
+## android/animation-samples
+This repository contains a set of individual Android Studio projects to help you get started writing/understanding Android animation features.  
+https://github.com/android/animation-samples
 
 # 📌JS Open Source Project
 ## fabric.js(MIT License)
