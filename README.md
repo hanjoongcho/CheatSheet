@@ -32,6 +32,13 @@
 - [Oracle Table Space 확장하기](oracle_cheat_sheet_01.md)
 
 # 📌개발자에게 도움이 되는 링크모음
+## Integerous/goQuality-dev-contents
+> 유익한 개발 컨텐츠를 비추는 카메라 입니다.  
+좋은 컨텐츠를 널리 알리면 더 많이 소비되고, 더 많이 소비되면 더 많이 생산된다는 생각으로
+컨텐츠 생산자와 소비자 모두에게 유익한 선순환을 만들고자 합니다.  
+
+https://github.com/Integerous/goQuality-dev-contents
+
 ## leehosung/awesome-devteam
 좋은 개발팀을 만드는데 도움이 되는 자료입니다. 많은 분들의 참여로 좋은 문서들을 많이 모아 나갔으면 합니다.
 - [GitHub](https://github.com/leehosung/awesome-devteam)
@@ -49,9 +56,9 @@ Technical Interview Guidelines for Beginners
 - [GitHub](https://github.com/javascript-tutorial/ko.javascript.info)
 
 ## bmaslakov/kotlin-algorithm-club
-> Here you can find the most common algorithms and data structures written in Kotlin.
-> The goal of this project is to create the most eloquent implementations of old algorithms in the new language. The code is meant to be as self-describing as possible, so I do not plan to include much documentation. It is assumed that you know the basics; if you want to learn algorithms perhaps it is a wrong place. I do full-heartedly recommend The Algorithm Design Manual by Steven Skiena and of course...  
+> Here you can find the most common algorithms and data structures written in Kotlin.  
 
+> The goal of this project is to create the most eloquent implementations of old algorithms in the new language. The code is meant to be as self-describing as possible, so I do not plan to include much documentation. It is assumed that you know the basics; if you want to learn algorithms perhaps it is a wrong place. I do full-heartedly recommend The Algorithm Design Manual by Steven Skiena and of course...  
 https://github.com/bmaslakov/kotlin-algorithm-club
 
 # 📌Android Open Source Application
@@ -65,6 +72,15 @@ AppIntro is an Android Library that helps you build a cool carousel intro for yo
 - [GitHub](https://github.com/AppIntro/AppIntro)
 
 # 📌Android Development Guide
+## igorwojda/android-showcase
+> Showcase is a sample project that presents a modern, 2020 approach to Android application development with up to date tech-stack.  
+  
+The goal of the project is to demonstrate best practices by using up to date tech-stack and presenting mod ern Android application Architecture that is modular, scalable, maintainable, and testable. This application may look quite simple, but it has all of these small details that will set the rock-solid foundation for the larger app suitable for bigger teams and long application lifecycle.  
+  
+This project is being maintained to match current industry standards. Please check CONTRIBUTING page if you want to help.  
+
+https://github.com/igorwojda/android-showcase 
+
 ## android/testing-samples
 A collection of samples demonstrating different frameworks and techniques for automated testing.
 - [GitHub](https://github.com/android/testing-samples)
