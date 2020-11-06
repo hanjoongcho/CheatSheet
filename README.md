@@ -50,17 +50,21 @@ https://github.com/javascript-tutorial/ko.javascript.info
 ## Algorithms and data structures in Kotlin.
 https://github.com/bmaslakov/kotlin-algorithm-club
 
-# 📌Android Open Source Application
+# 📌Android Open Source Application 링크
 ## Open Event Mobile App for Organizers and Entry Managers
-> https://play.google.com/store/apps/details?id=com.eventyay.organizer  
-
 https://github.com/fossasia/open-event-organizer-android
 
-# 📌Android Open Source Library
+## AquaDroid app reminds you to drink water and tracks your water intake habit.
+https://github.com/z3r0c00l-2k/AquaDroid
+
+# 📌Android Open Source Library 링크
 ## Make a cool intro for your Android app.
 https://github.com/AppIntro/AppIntro
 
-# 📌Android Development Guide
+## Three material Dots Indicators for view pagers in Android !
+https://github.com/tommybuonomo/dotsindicator
+
+# 📌Android 개발가이드 링크
 ## 💎 Android application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 https://github.com/igorwojda/android-showcase 
 
@@ -72,6 +76,9 @@ https://github.com/LukasLechnerDev/Kotlin-Coroutine-Use-Cases-on-Android
 
 ## Multiple samples showing the best practices in animation on Android.
 https://github.com/android/animation-samples
+
+## Android samples for Google Workspace APIs
+https://github.com/googleworkspace/android-samples
 
 # 📌JS Open Source Project
 ## fabric.js(MIT License)
