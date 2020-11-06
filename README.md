@@ -53,12 +53,37 @@ https://github.com/bmaslakov/kotlin-algorithm-club
 ## An interactive git visualization to challenge and educate!
 https://github.com/pcottle/learnGitBranching
 
+## ☑️ [Cheatsheet] Tips and tricks for Android Development
+https://github.com/nisrulz/android-tips-tricks
+
+## Awesome Android references for everything like best practices, performance optimization, etc.
+https://github.com/amitshekhariitbhu/awesome-android-complete-reference
+
+## 어썸데브블로그. 국내 개발 블로그 모음(only 실명으로).
+https://github.com/sarojaba/awesome-devblog
+
 # 📌Android Open Source Application 링크
+
+## 📘 A diary application optimized for user experience.
+https://github.com/hanjoongcho/aaf-easydiary
+
+## A simple calendar with events, customizable widgets and no ads.
+https://github.com/SimpleMobileTools/Simple-Calendar
+
+## An app for catching up on things.
+https://github.com/ZacSweers/CatchUp
+
 ## Open Event Mobile App for Organizers and Entry Managers
 https://github.com/fossasia/open-event-organizer-android
 
 ## AquaDroid app reminds you to drink water and tracks your water intake habit.
 https://github.com/z3r0c00l-2k/AquaDroid
+
+## Android personal diary - forked from http://git.savannah.gnu.org/cgit/diary.git
+https://github.com/billthefarmer/diary
+
+## A fun to play quiz that showcas
+https://github.com/android/topeka
 
 # 📌Android Open Source Library 링크
 ## Make a cool intro for your Android app.
@@ -82,7 +107,25 @@ https://github.com/ybq/Android-SpinKit
 ## A simple LiveData implementation of Android Location API
 https://github.com/emreeran/LocationLiveData
 
+## A powerful 🚀 Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, panning and animations.
+https://github.com/PhilJay/MPAndroidChart
+
+## An Android Alerting Library
+https://github.com/Tapadoo/Alerter
+
+## Define and apply styles to Android views programmatically
+https://github.com/airbnb/paris
+
+## Create an awesome About Page for your Android App in 2 minutes
+https://github.com/medyo/android-about-page
+
+## https://github.com/permissions-dispatcher/PermissionsDispatcher
+https://github.com/permissions-dispatcher/PermissionsDispatcher
+
 # 📌Android 개발가이드 링크
+## Samples for Android Architecture Components.
+https://github.com/android/architecture-components-samples
+
 ## 💎 Android application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 https://github.com/igorwojda/android-showcase 
 
@@ -106,6 +149,21 @@ https://github.com/material-components/material-components-android
 
 ## This repository contains a detailed sample app that implements MVP architecture in Kotlin using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView
 https://github.com/MindorksOpenSource/android-kotlin-mvp-architecture
+
+## https://github.com/saulmm/CoordinatorExamples
+https://github.com/saulmm/CoordinatorExamples
+
+## Design patterns implemented in Java
+https://github.com/iluwatar/java-design-patterns
+
+## :shipit: [Examples] Simple basic isolated apps, for budding android devs.
+https://github.com/nisrulz/android-examples
+
+## A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
+https://github.com/android/architecture-samples
+
+## Software Design Patterns in Kotlin
+https://github.com/volodymyrprokopyuk/kotlin-sdp
 
 # 📌JS Open Source Project
 ## fabric.js(MIT License)
