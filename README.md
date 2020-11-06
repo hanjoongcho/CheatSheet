@@ -50,6 +50,9 @@ https://github.com/javascript-tutorial/ko.javascript.info
 ## Algorithms and data structures in Kotlin.
 https://github.com/bmaslakov/kotlin-algorithm-club
 
+## An interactive git visualization to challenge and educate!
+https://github.com/pcottle/learnGitBranching
+
 # 📌Android Open Source Application 링크
 ## Open Event Mobile App for Organizers and Entry Managers
 https://github.com/fossasia/open-event-organizer-android
@@ -63,6 +66,21 @@ https://github.com/AppIntro/AppIntro
 
 ## Three material Dots Indicators for view pagers in Android !
 https://github.com/tommybuonomo/dotsindicator
+
+## An Android transformation library providing a variety of image transformations for Glide.
+https://github.com/wasabeef/glide-transformations
+
+## Android Transition animations explanation with examples.
+https://github.com/lgvalle/Material-Animations
+
+## Cute view animation collection.
+https://github.com/daimajia/AndroidViewAnimations
+
+## Android loading animations
+https://github.com/ybq/Android-SpinKit
+
+## A simple LiveData implementation of Android Location API
+https://github.com/emreeran/LocationLiveData
 
 # 📌Android 개발가이드 링크
 ## 💎 Android application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
@@ -79,6 +97,15 @@ https://github.com/android/animation-samples
 
 ## Android samples for Google Workspace APIs
 https://github.com/googleworkspace/android-samples
+
+## Source code to omnibus edition of _The Busy Coder's Guide to Android Development_
+https://github.com/commonsguy/cw-omnibus
+
+## Modular and customizable Material Design UI components for Android
+https://github.com/material-components/material-components-android
+
+## This repository contains a detailed sample app that implements MVP architecture in Kotlin using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView
+https://github.com/MindorksOpenSource/android-kotlin-mvp-architecture
 
 # 📌JS Open Source Project
 ## fabric.js(MIT License)
