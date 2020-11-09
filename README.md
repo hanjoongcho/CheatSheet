@@ -62,8 +62,7 @@ https://github.com/amitshekhariitbhu/awesome-android-complete-reference
 ### 어썸데브블로그. 국내 개발 블로그 모음(only 실명으로).
 https://github.com/sarojaba/awesome-devblog
 
-# 📌Android Open Source Application 링크
-
+# 📌Android Open Source Application 링크 (독립적으로 실행 가능한 앱)
 ### 📘 A diary application optimized for user experience.
 https://github.com/hanjoongcho/aaf-easydiary
 
@@ -82,8 +81,18 @@ https://github.com/z3r0c00l-2k/AquaDroid
 ### Android personal diary - forked from http://git.savannah.gnu.org/cgit/diary.git
 https://github.com/billthefarmer/diary
 
+# 📌Android Open Source Application 링크 (가이드용 앱)
+### A gardening app illustrating Android development best practices with Android Jetpack.
+https://github.com/android/sunflower
+
 ### A fun to play quiz that showcas
 https://github.com/android/topeka
+
+### A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
+https://github.com/android/architecture-samples
+
+### Samples for Android Architecture Components.
+https://github.com/android/architecture-components-samples
 
 # 📌Android Open Source Library 링크
 ### Make a cool intro for your Android app.
@@ -119,13 +128,10 @@ https://github.com/airbnb/paris
 ### Create an awesome About Page for your Android App in 2 minutes
 https://github.com/medyo/android-about-page
 
-### https://github.com/permissions-dispatcher/PermissionsDispatcher
+### A declarative and comprehensive API to handle Android runtime permissions.
 https://github.com/permissions-dispatcher/PermissionsDispatcher
 
 # 📌Android 개발가이드 링크
-### Samples for Android Architecture Components.
-https://github.com/android/architecture-components-samples
-
 ### 💎 Android application following best practices: Kotlin, coroutines, Clean Architecture, feature modules, tests, MVVM, static analysis...
 https://github.com/igorwojda/android-showcase 
 
@@ -150,7 +156,7 @@ https://github.com/material-components/material-components-android
 ### This repository contains a detailed sample app that implements MVP architecture in Kotlin using Dagger2, Room, RxJava2, FastAndroidNetworking and PlaceholderView
 https://github.com/MindorksOpenSource/android-kotlin-mvp-architecture
 
-### https://github.com/saulmm/CoordinatorExamples
+### Different CoordinatorLayout usages, tips & examples
 https://github.com/saulmm/CoordinatorExamples
 
 ### Design patterns implemented in Java
@@ -159,11 +165,12 @@ https://github.com/iluwatar/java-design-patterns
 ### :shipit: [Examples] Simple basic isolated apps, for budding android devs.
 https://github.com/nisrulz/android-examples
 
-### A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.
-https://github.com/android/architecture-samples
-
 ### Software Design Patterns in Kotlin
 https://github.com/volodymyrprokopyuk/kotlin-sdp
+
+# 📌JAVA 개발가이드 링크
+### Java 8 Guides and Tutorials - A lot of awesome examples using Java 8 features like Stream, Lambda, Functional Interface, Date and Time API and much more
+https://github.com/alexandregama/java8-guides-tutorials
 
 # 📌JS Open Source Project
 ### fabric.js(MIT License)
