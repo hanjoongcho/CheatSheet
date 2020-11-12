@@ -35,3 +35,40 @@ public class AppConfig {
     }
 }
 ```
+## 📁 lombok
+### @Getter
+> 모든 필드에 @Getter 및 / 또는 @Setter에 주석을 달아 lombok이 기본 getter / setter를 자동으로 생성하도록 할 수 있습니다.
+```java
+@Target({ElementType.FIELD, ElementType.TYPE})
+@Retention(RetentionPolicy.SOURCE)
+public @interface Getter 
+```
+> example
+```java
+import lombok.AccessLevel;
+import lombok.Getter;
+import lombok.Setter;
+
+public class GetterSetterExample {
+    /**
+    * Age of the person. Water is wet.
+    * 
+    * @param age New value for this person's age. Sky is blue.
+    * @return The current value of this person's age. Circles are round.
+    */
+    @Getter @Setter private int age = 10;
+
+    /**
+    * Name of the person.
+    * -- SETTER --
+    * Changes the name of this person.
+    * 
+    * @param name The new value.
+    */
+    @Setter(AccessLevel.PROTECTED) private String name;
+
+    @Override public String toString() {
+        return String.format("%s (age: %d)", name, age);
+    }
+}
+```
