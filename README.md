@@ -55,6 +55,9 @@ https://github.com/javascript-tutorial/ko.javascript.info
 ### Algorithms and data structures in Kotlin.
 https://github.com/bmaslakov/kotlin-algorithm-club
 
+### 📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings
+https://github.com/trekhleb/javascript-algorithms
+
 ### An interactive git visualization to challenge and educate!
 https://github.com/pcottle/learnGitBranching
 
