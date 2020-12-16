@@ -176,6 +176,9 @@ https://github.com/nisrulz/android-examples
 ### Software Design Patterns in Kotlin
 https://github.com/volodymyrprokopyuk/kotlin-sdp
 
+### Architecture and code guidelines we use at ribot when developing for Android
+https://github.com/umesh0492/android-guidelines
+
 # 📌JAVA 개발가이드 링크
 ### Java 8 Guides and Tutorials - A lot of awesome examples using Java 8 features like Stream, Lambda, Functional Interface, Date and Time API and much more
 https://github.com/alexandregama/java8-guides-tutorials
