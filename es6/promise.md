@@ -27,7 +27,7 @@ myFirstPromise.then((successMessage) => {
 });
 ```
 > Advanced Example
-``` javascript
+``` java
 'use strict';
 var promiseCount = 0;
 
