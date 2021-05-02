@@ -10,7 +10,7 @@ Reference Link: [https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/
 Appends a handler to the promise, and returns a new promise which is resolved when the original promise is resolved. The handler is called when the promise is settled, whether fulfilled or rejected.
 
 > Basic Example
-```java
+```javascript
 let myFirstPromise = new Promise((resolve, reject) => {
   // We call resolve(...) when what we were doing asynchronously was successful, and reject(...) when it failed.
   // In this example, we use setTimeout(...) to simulate async code.
@@ -27,7 +27,7 @@ myFirstPromise.then((successMessage) => {
 });
 ```
 > Advanced Example
-```java
+```javascript
 'use strict';
 var promiseCount = 0;
 
