@@ -6,7 +6,7 @@ Reference: [https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%
 |----------|-------|------------|----------------|
 | U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               |
 | U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               |
-| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana Phonetic Extensions) | 16         | 16               |
+| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana_Phonetic_Extensions) | 16         | 16               |
 
 ## Hiragana
 > 히라가나 (89자), 일반 (2자), 상속 (2자) 
@@ -240,9 +240,10 @@ console.log(markdown)
 
 ## Katakana Phonetic Extensions
 > 가타카나 
+
 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
 |----------|-------|------------|----------------|
-| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana Phonetic Extensions) | 16         | 16               |
+| U+31F0..U+31FF | Katakana Phonetic Extensions | 16         | 16               |
 
 ```javascript
 let markdown = '|No|Code Point|Character|\r\n'
