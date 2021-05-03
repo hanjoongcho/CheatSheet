@@ -1,17 +1,17 @@
 # ASCII
 Reference: https://ko.wikipedia.org/wiki/ASCII
-## 출력 가능 아스키 문자표 (0x20 ~ 0x5f)
+## 출력 가능 아스키 문자표 (0x20 ~ 0x7e)
 
 ```javascript
 var markdown = '|Dec|Hex|Character|\r\n'
 markdown +=  '|--|---|--|\r\n'
-for (i = 0x20; i <= 0x5f; i++) { 
+for (i = 0x20; i <= 0x7e; i++) { 
     markdown += '|' + i + '|0x'+i.toString(16).padStart(2, '0') + '| ' + String.fromCharCode(i) + '|\r\n' 
 }
 console.log(markdown)
 ```
 
-Dec|Hex|Character|
+|Dec|Hex|Character|
 |--|---|--|
 |32|0x20|  |
 |33|0x21| !|
@@ -77,3 +77,34 @@ Dec|Hex|Character|
 |93|0x5d| ]|
 |94|0x5e| ^|
 |95|0x5f| _|
+|96|0x60| `|
+|97|0x61| a|
+|98|0x62| b|
+|99|0x63| c|
+|100|0x64| d|
+|101|0x65| e|
+|102|0x66| f|
+|103|0x67| g|
+|104|0x68| h|
+|105|0x69| i|
+|106|0x6a| j|
+|107|0x6b| k|
+|108|0x6c| l|
+|109|0x6d| m|
+|110|0x6e| n|
+|111|0x6f| o|
+|112|0x70| p|
+|113|0x71| q|
+|114|0x72| r|
+|115|0x73| s|
+|116|0x74| t|
+|117|0x75| u|
+|118|0x76| v|
+|119|0x77| w|
+|120|0x78| x|
+|121|0x79| y|
+|122|0x7a| z|
+|123|0x7b| {|
+|124|0x7c| ||
+|125|0x7d| }|
+|126|0x7e| ~|
