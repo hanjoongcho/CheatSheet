@@ -5,6 +5,8 @@ Reference: [https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%
 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
 |----------|-------|------------|----------------|
 | U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               |
+| U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               |
+| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana Phonetic Extensions) | 16         | 16               |
 
 ## Hiragana
 > 히라가나 (89자), 일반 (2자), 상속 (2자) 
@@ -122,9 +124,8 @@ console.log(markdown)
 |96|U+309f| ゟ|
 
 
-
-## 가타카나 (93자), 상속 (3자)  
-
+## Katakana
+> 가타카나 (93자), 상속 (3자)  
 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
 |----------|-------|------------|----------------|
 | U+30A0..U+30FF | Katakana | 96         | 96               |
@@ -236,3 +237,39 @@ console.log(markdown)
 |94|U+30fd| ヽ|
 |95|U+30fe| ヾ|
 |96|U+30ff| ヿ|
+
+## Katakana Phonetic Extensions
+> 가타카나 
+| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|----------|-------|------------|----------------|
+| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana Phonetic Extensions) | 16         | 16               |
+
+```javascript
+let markdown = '|No|Code Point|Character|\r\n'
+markdown +=  '|--|---|--|\r\n'
+let sequence = 1
+for (let i = 0x31F0; i <= 0x31FF; i++) { 
+    markdown += '|' +  (sequence++) + '|U+' + i.toString(16).padStart(2, '0') + '| ' + String.fromCharCode(i) + '|\r\n' 
+}
+console.log(markdown)
+```
+
+|No|Code Point|Character|
+|--|---|--|
+|1|U+31f0| ㇰ|
+|2|U+31f1| ㇱ|
+|3|U+31f2| ㇲ|
+|4|U+31f3| ㇳ|
+|5|U+31f4| ㇴ|
+|6|U+31f5| ㇵ|
+|7|U+31f6| ㇶ|
+|8|U+31f7| ㇷ|
+|9|U+31f8| ㇸ|
+|10|U+31f9| ㇹ|
+|11|U+31fa| ㇺ|
+|12|U+31fb| ㇻ|
+|13|U+31fc| ㇼ|
+|14|U+31fd| ㇽ|
+|15|U+31fe| ㇾ|
+|16|U+31ff| ㇿ|
+
