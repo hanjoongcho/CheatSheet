@@ -2,11 +2,15 @@
 Reference: [https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD)
 
 ## Code Block
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
-|----------|-------|------------|----------------|
-| U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               |
-| U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               |
-| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana_Phonetic_Extensions) | 16         | 16               |
+| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 | Define |
+|----------|-------|------------|----------------|-----|
+| U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               | O |
+| U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               | O |
+| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana-Phonetic-Extensions) | 16         | 16               | O |
+| U+3200..U+32FF | [Enclosed CJK Letters and Months](#Enclosed-CJK-Letters-and-Months) | 256         | 254               |
+| U+3300..U+33FF | [CJK Compatibility](#CJK-Compatibility) | 256         | 256               |
+| U+FF00..U+FFEF | [Halfwidth and Fullwidth Forms](#Halfwidth-and-Fullwidth-Forms) | 240         | 225               | O |
+| U+1B000..U+1B0FF | [Kana Supplement](#Kana-Supplement) | 256         | 256               |
 
 ## Hiragana
 > 히라가나 (89자), 일반 (2자), 상속 (2자) 
@@ -274,3 +278,261 @@ console.log(markdown)
 |15|U+31fe| ㇾ|
 |16|U+31ff| ㇿ|
 
+## Halfwidth and Fullwidth Forms
+> 한글 (52자), 가타카나 (55자), 로마자 (52자), 일반 (66자)
+
+| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|----------|-------|------------|----------------|
+| U+FF00..U+FFEF | [Halfwidth and Fullwidth Forms](#Halfwidth-and-Fullwidth-Forms) | 240         | 225               |
+
+```javascript
+let markdown = '|No|Code Point|Character|\r\n'
+markdown +=  '|--|---|--|\r\n'
+let sequence = 1
+for (let i = 0xFF00; i <= 0xFFEF; i++) { 
+    markdown += '|' +  (sequence++) + '|U+' + i.toString(16).padStart(2, '0') + '| ' + String.fromCharCode(i) + '|\r\n' 
+}
+console.log(markdown)
+```
+|No|Code Point|Character|
+|--|---|--|
+|1|U+ff00| ＀|
+|2|U+ff01| ！|
+|3|U+ff02| ＂|
+|4|U+ff03| ＃|
+|5|U+ff04| ＄|
+|6|U+ff05| ％|
+|7|U+ff06| ＆|
+|8|U+ff07| ＇|
+|9|U+ff08| （|
+|10|U+ff09| ）|
+|11|U+ff0a| ＊|
+|12|U+ff0b| ＋|
+|13|U+ff0c| ，|
+|14|U+ff0d| －|
+|15|U+ff0e| ．|
+|16|U+ff0f| ／|
+|17|U+ff10| ０|
+|18|U+ff11| １|
+|19|U+ff12| ２|
+|20|U+ff13| ３|
+|21|U+ff14| ４|
+|22|U+ff15| ５|
+|23|U+ff16| ６|
+|24|U+ff17| ７|
+|25|U+ff18| ８|
+|26|U+ff19| ９|
+|27|U+ff1a| ：|
+|28|U+ff1b| ；|
+|29|U+ff1c| ＜|
+|30|U+ff1d| ＝|
+|31|U+ff1e| ＞|
+|32|U+ff1f| ？|
+|33|U+ff20| ＠|
+|34|U+ff21| Ａ|
+|35|U+ff22| Ｂ|
+|36|U+ff23| Ｃ|
+|37|U+ff24| Ｄ|
+|38|U+ff25| Ｅ|
+|39|U+ff26| Ｆ|
+|40|U+ff27| Ｇ|
+|41|U+ff28| Ｈ|
+|42|U+ff29| Ｉ|
+|43|U+ff2a| Ｊ|
+|44|U+ff2b| Ｋ|
+|45|U+ff2c| Ｌ|
+|46|U+ff2d| Ｍ|
+|47|U+ff2e| Ｎ|
+|48|U+ff2f| Ｏ|
+|49|U+ff30| Ｐ|
+|50|U+ff31| Ｑ|
+|51|U+ff32| Ｒ|
+|52|U+ff33| Ｓ|
+|53|U+ff34| Ｔ|
+|54|U+ff35| Ｕ|
+|55|U+ff36| Ｖ|
+|56|U+ff37| Ｗ|
+|57|U+ff38| Ｘ|
+|58|U+ff39| Ｙ|
+|59|U+ff3a| Ｚ|
+|60|U+ff3b| ［|
+|61|U+ff3c| ＼|
+|62|U+ff3d| ］|
+|63|U+ff3e| ＾|
+|64|U+ff3f| ＿|
+|65|U+ff40| ｀|
+|66|U+ff41| ａ|
+|67|U+ff42| ｂ|
+|68|U+ff43| ｃ|
+|69|U+ff44| ｄ|
+|70|U+ff45| ｅ|
+|71|U+ff46| ｆ|
+|72|U+ff47| ｇ|
+|73|U+ff48| ｈ|
+|74|U+ff49| ｉ|
+|75|U+ff4a| ｊ|
+|76|U+ff4b| ｋ|
+|77|U+ff4c| ｌ|
+|78|U+ff4d| ｍ|
+|79|U+ff4e| ｎ|
+|80|U+ff4f| ｏ|
+|81|U+ff50| ｐ|
+|82|U+ff51| ｑ|
+|83|U+ff52| ｒ|
+|84|U+ff53| ｓ|
+|85|U+ff54| ｔ|
+|86|U+ff55| ｕ|
+|87|U+ff56| ｖ|
+|88|U+ff57| ｗ|
+|89|U+ff58| ｘ|
+|90|U+ff59| ｙ|
+|91|U+ff5a| ｚ|
+|92|U+ff5b| ｛|
+|93|U+ff5c| ｜|
+|94|U+ff5d| ｝|
+|95|U+ff5e| ～|
+|96|U+ff5f| ｟|
+|97|U+ff60| ｠|
+|98|U+ff61| ｡|
+|99|U+ff62| ｢|
+|100|U+ff63| ｣|
+|101|U+ff64| ､|
+|102|U+ff65| ･|
+|103|U+ff66| ｦ|
+|104|U+ff67| ｧ|
+|105|U+ff68| ｨ|
+|106|U+ff69| ｩ|
+|107|U+ff6a| ｪ|
+|108|U+ff6b| ｫ|
+|109|U+ff6c| ｬ|
+|110|U+ff6d| ｭ|
+|111|U+ff6e| ｮ|
+|112|U+ff6f| ｯ|
+|113|U+ff70| ｰ|
+|114|U+ff71| ｱ|
+|115|U+ff72| ｲ|
+|116|U+ff73| ｳ|
+|117|U+ff74| ｴ|
+|118|U+ff75| ｵ|
+|119|U+ff76| ｶ|
+|120|U+ff77| ｷ|
+|121|U+ff78| ｸ|
+|122|U+ff79| ｹ|
+|123|U+ff7a| ｺ|
+|124|U+ff7b| ｻ|
+|125|U+ff7c| ｼ|
+|126|U+ff7d| ｽ|
+|127|U+ff7e| ｾ|
+|128|U+ff7f| ｿ|
+|129|U+ff80| ﾀ|
+|130|U+ff81| ﾁ|
+|131|U+ff82| ﾂ|
+|132|U+ff83| ﾃ|
+|133|U+ff84| ﾄ|
+|134|U+ff85| ﾅ|
+|135|U+ff86| ﾆ|
+|136|U+ff87| ﾇ|
+|137|U+ff88| ﾈ|
+|138|U+ff89| ﾉ|
+|139|U+ff8a| ﾊ|
+|140|U+ff8b| ﾋ|
+|141|U+ff8c| ﾌ|
+|142|U+ff8d| ﾍ|
+|143|U+ff8e| ﾎ|
+|144|U+ff8f| ﾏ|
+|145|U+ff90| ﾐ|
+|146|U+ff91| ﾑ|
+|147|U+ff92| ﾒ|
+|148|U+ff93| ﾓ|
+|149|U+ff94| ﾔ|
+|150|U+ff95| ﾕ|
+|151|U+ff96| ﾖ|
+|152|U+ff97| ﾗ|
+|153|U+ff98| ﾘ|
+|154|U+ff99| ﾙ|
+|155|U+ff9a| ﾚ|
+|156|U+ff9b| ﾛ|
+|157|U+ff9c| ﾜ|
+|158|U+ff9d| ﾝ|
+|159|U+ff9e| ﾞ|
+|160|U+ff9f| ﾟ|
+|161|U+ffa0| ﾠ|
+|162|U+ffa1| ﾡ|
+|163|U+ffa2| ﾢ|
+|164|U+ffa3| ﾣ|
+|165|U+ffa4| ﾤ|
+|166|U+ffa5| ﾥ|
+|167|U+ffa6| ﾦ|
+|168|U+ffa7| ﾧ|
+|169|U+ffa8| ﾨ|
+|170|U+ffa9| ﾩ|
+|171|U+ffaa| ﾪ|
+|172|U+ffab| ﾫ|
+|173|U+ffac| ﾬ|
+|174|U+ffad| ﾭ|
+|175|U+ffae| ﾮ|
+|176|U+ffaf| ﾯ|
+|177|U+ffb0| ﾰ|
+|178|U+ffb1| ﾱ|
+|179|U+ffb2| ﾲ|
+|180|U+ffb3| ﾳ|
+|181|U+ffb4| ﾴ|
+|182|U+ffb5| ﾵ|
+|183|U+ffb6| ﾶ|
+|184|U+ffb7| ﾷ|
+|185|U+ffb8| ﾸ|
+|186|U+ffb9| ﾹ|
+|187|U+ffba| ﾺ|
+|188|U+ffbb| ﾻ|
+|189|U+ffbc| ﾼ|
+|190|U+ffbd| ﾽ|
+|191|U+ffbe| ﾾ|
+|192|U+ffbf| ﾿|
+|193|U+ffc0| ￀|
+|194|U+ffc1| ￁|
+|195|U+ffc2| ￂ|
+|196|U+ffc3| ￃ|
+|197|U+ffc4| ￄ|
+|198|U+ffc5| ￅ|
+|199|U+ffc6| ￆ|
+|200|U+ffc7| ￇ|
+|201|U+ffc8| ￈|
+|202|U+ffc9| ￉|
+|203|U+ffca| ￊ|
+|204|U+ffcb| ￋ|
+|205|U+ffcc| ￌ|
+|206|U+ffcd| ￍ|
+|207|U+ffce| ￎ|
+|208|U+ffcf| ￏ|
+|209|U+ffd0| ￐|
+|210|U+ffd1| ￑|
+|211|U+ffd2| ￒ|
+|212|U+ffd3| ￓ|
+|213|U+ffd4| ￔ|
+|214|U+ffd5| ￕ|
+|215|U+ffd6| ￖ|
+|216|U+ffd7| ￗ|
+|217|U+ffd8| ￘|
+|218|U+ffd9| ￙|
+|219|U+ffda| ￚ|
+|220|U+ffdb| ￛ|
+|221|U+ffdc| ￜ|
+|222|U+ffdd| ￝|
+|223|U+ffde| ￞|
+|224|U+ffdf| ￟|
+|225|U+ffe0| ￠|
+|226|U+ffe1| ￡|
+|227|U+ffe2| ￢|
+|228|U+ffe3| ￣|
+|229|U+ffe4| ￤|
+|230|U+ffe5| ￥|
+|231|U+ffe6| ￦|
+|232|U+ffe7| ￧|
+|233|U+ffe8| ￨|
+|234|U+ffe9| ￩|
+|235|U+ffea| ￪|
+|236|U+ffeb| ￫|
+|237|U+ffec| ￬|
+|238|U+ffed| ￭|
+|239|U+ffee| ￮|
+|240|U+ffef| ￯|
