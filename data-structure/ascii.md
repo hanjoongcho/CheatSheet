@@ -1,18 +1,36 @@
 # ASCII
 Reference: https://ko.wikipedia.org/wiki/ASCII
-## 출력 가능 아스키 문자표 (0x32 ~ 0x5f)
+## 출력 가능 아스키 문자표 (0x20 ~ 0x5f)
 
 ```javascript
 var markdown = '|Dec|Hex|Character|\r\n'
 markdown +=  '|--|---|--|\r\n'
-for (i = 0x32; i <= 0x5f; i++) { 
+for (i = 0x20; i <= 0x5f; i++) { 
     markdown += '|' + i + '|0x'+i.toString(16).padStart(2, '0') + '| ' + String.fromCharCode(i) + '|\r\n' 
 }
 console.log(markdown)
 ```
 
-|Dec|Hex|Character|
+Dec|Hex|Character|
 |--|---|--|
+|32|0x20|  |
+|33|0x21| !|
+|34|0x22| "|
+|35|0x23| #|
+|36|0x24| $|
+|37|0x25| %|
+|38|0x26| &|
+|39|0x27| '|
+|40|0x28| (|
+|41|0x29| )|
+|42|0x2a| *|
+|43|0x2b| +|
+|44|0x2c| ,|
+|45|0x2d| -|
+|46|0x2e| .|
+|47|0x2f| /|
+|48|0x30| 0|
+|49|0x31| 1|
 |50|0x32| 2|
 |51|0x33| 3|
 |52|0x34| 4|
