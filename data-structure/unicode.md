@@ -2,12 +2,12 @@
 Reference: https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD
 ## 히라가나 (89자), 일반 (2자), 상속 (2자) 
  
-| 코드범위 | 코드 포인트 | 할당된 문자 |
-| -------- |------------|----------------|
-| U+3040..U+309F | 96         | 93               |
+| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|----------|-------|------------|----------------|
+| U+3040..U+309F| Hiragana | 96         | 93               |
 
 ```javascript
-var markdown = '|No|Code Point|Character|\r\n'
+let markdown = '|No|Code Point|Character|\r\n'
 markdown +=  '|--|---|--|\r\n'
 let sequence = 1
 for (let i = 0x3040; i <= 0x309F; i++) { 
@@ -118,12 +118,12 @@ console.log(markdown)
 
 ## 가타카나 (93자), 상속 (3자)  
 
-| 코드범위 | 코드 포인트 | 할당된 문자 |
-| -------- |------------|----------------|
-| U+30A0..U+30FF | 96         | 96               |
+| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|----------|-------|------------|----------------|
+| U+30A0..U+30FF | Katakana | 96         | 96               |
 
 ```javascript
-var markdown = '|No|Code Point|Character|\r\n'
+let markdown = '|No|Code Point|Character|\r\n'
 markdown +=  '|--|---|--|\r\n'
 let sequence = 1
 for (let i = 0x30A0; i <= 0x30FF; i++) { 
