@@ -3,9 +3,9 @@ Reference: https://ko.wikipedia.org/wiki/ASCII
 ## 출력 가능 아스키 문자표 (0x20 ~ 0x7e)
 
 ```javascript
-var markdown = '|Dec|Hex|Character|\r\n'
+let markdown = '|Dec|Hex|Character|\r\n'
 markdown +=  '|--|---|--|\r\n'
-for (i = 0x20; i <= 0x7e; i++) { 
+for (let i = 0x20; i <= 0x7e; i++) { 
     markdown += '|' + i + '|0x'+i.toString(16).padStart(2, '0') + '| ' + String.fromCharCode(i) + '|\r\n' 
 }
 console.log(markdown)
