@@ -2,21 +2,21 @@
 Reference: [https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%88%EC%BD%94%EB%93%9C_%EC%98%81%EC%97%AD)
 
 ## Code Block
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 | Define |
-|----------|-------|------------|----------------|-----|
-| U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               | O |
-| U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               | O |
-| U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana-Phonetic-Extensions) | 16         | 16               | O |
-| U+3200..U+32FF | [Enclosed CJK Letters and Months](#Enclosed-CJK-Letters-and-Months) | 256         | 254               |
-| U+3300..U+33FF | [CJK Compatibility](#CJK-Compatibility) | 256         | 256               |
-| U+FF00..U+FFEF | [Halfwidth and Fullwidth Forms](#Halfwidth-and-Fullwidth-Forms) | 240         | 225               | O |
-| U+1B000..U+1B0FF | [Kana Supplement](#Kana-Supplement) | 256         | 256               |
+| 평면 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 | Define |
+|------|----------|-------|------------|----------------|-----|
+| 0 BMP | U+3040..U+309F| [Hiragana](#Hiragana) | 96         | 93               | O |
+| 0 BMP | U+30A0..U+30FF | [Katakana](#Katakana) | 96         | 96               | O |
+| 0 BMP | U+31F0..U+31FF | [Katakana Phonetic Extensions](#Katakana-Phonetic-Extensions) | 16         | 16               | O |
+| 0 BMP | U+3200..U+32FF | [Enclosed CJK Letters and Months](#Enclosed-CJK-Letters-and-Months) | 256         | 254               |
+| 0 BMP | U+3300..U+33FF | [CJK Compatibility](#CJK-Compatibility) | 256         | 256               |
+| 0 BMP | U+FF00..U+FFEF | [Halfwidth and Fullwidth Forms](#Halfwidth-and-Fullwidth-Forms) | 240         | 225               | O |
+| 1 SMP | U+1B000..U+1B0FF | [Kana Supplement](#Kana-Supplement) | 256         | 256               |
 
 ## Hiragana
 > 히라가나 (89자), 일반 (2자), 상속 (2자) 
  
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
-|----------|-------|------------|----------------|
+| 평면 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|------|----------|-------|------------|----------------|
 | U+3040..U+309F| Hiragana | 96         | 93               |
 
 ```javascript
@@ -130,8 +130,8 @@ console.log(markdown)
 
 ## Katakana
 > 가타카나 (93자), 상속 (3자)  
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
-|----------|-------|------------|----------------|
+| 평면 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|------|----------|-------|------------|----------------|
 | U+30A0..U+30FF | Katakana | 96         | 96               |
 
 ```javascript
@@ -245,8 +245,8 @@ console.log(markdown)
 ## Katakana Phonetic Extensions
 > 가타카나 
 
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
-|----------|-------|------------|----------------|
+| 평면 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|------|----------|-------|------------|----------------|
 | U+31F0..U+31FF | Katakana Phonetic Extensions | 16         | 16               |
 
 ```javascript
@@ -281,8 +281,8 @@ console.log(markdown)
 ## Halfwidth and Fullwidth Forms
 > 한글 (52자), 가타카나 (55자), 로마자 (52자), 일반 (66자)
 
-| 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
-|----------|-------|------------|----------------|
+| 평면 | 영역범위 | 영역이름 |코드 포인트 | 할당된 문자 |
+|------|----------|-------|------------|----------------|
 | U+FF00..U+FFEF | [Halfwidth and Fullwidth Forms](#Halfwidth-and-Fullwidth-Forms) | 240         | 225               |
 
 ```javascript
