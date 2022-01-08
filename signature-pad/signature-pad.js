@@ -18,6 +18,14 @@ $(document).ready(function() {
         $('#exportData').val(null)
         $('#restoreSign').attr('src', null)
     })
+    
+    $('#executeNativeFunction').on('click',function() {
+        nativeInterface.showToast($('#exportData').val())  
+    })
 });
+
+var showAlert = function(message) {
+    alert(message)
+}
 
 
